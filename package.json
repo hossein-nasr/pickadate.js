@@ -1,5 +1,5 @@
 {
-  "name": "pickadate",
+  "name": "pickadate-jalaali",
   "version": "3.5.6",
   "title": "pickadate.js",
   "description": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker.",
@@ -8,7 +8,7 @@
     "time",
     "picker",
     "input",
-    "responsive"
+    "responsive","persian","jalaali"
   ],
   "homepage": "http://amsul.ca/pickadate.js",
   "bugs": "https://github.com/amsul/pickadate.js/issues",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/amsul/pickadate.js.git"
+    "url": "https://github.com/hossein-nasr/pickadate.js.git"
   },
   "scripts": {
     "prebump": "npm test",
@@ -36,7 +36,8 @@
     "test": "grunt test --verbose"
   },
   "dependencies": {
-    "jquery": ">=1.7"
+    "jquery": ">=1.7",
+    "moment-jalaali-r": "0.7.2"
   },
   "devDependencies": {
     "commander": "^2.8.0",

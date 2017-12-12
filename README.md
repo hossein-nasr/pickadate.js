@@ -1,4 +1,4 @@
-# pickadate
+# pickadate-jalaali
 
 The mobile-friendly, responsive, and lightweight jQuery date & time input picker.
 
@@ -6,6 +6,7 @@ The mobile-friendly, responsive, and lightweight jQuery date & time input picker
 <sup>&nbsp;&nbsp;&nbsp;</sup>
 [![pickadate dev dependencies status](https://david-dm.org/amsul/pickadate.js/dev-status.svg)](https://david-dm.org/amsul/pickadate.js#info=devDependencies)
 
+**This package is dependent to [`moment-jalaali`](https://github.com/jalaali/moment-jalaali).You need to include it in your html/js.**
 
 #### To get started, check out the:
 
